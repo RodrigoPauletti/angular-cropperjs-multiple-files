@@ -1,0 +1,33 @@
+p {
+  font-family: Lato;
+}
+
+::ng-deep .cropper-container, ::ng-deep .cropper img {
+  max-height: 500px !important;
+}
+
+.hide {
+  opacity: .5;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+}
+
+.previews {
+  margin: 1.25rem 0 0;
+  text-align: center;
+  .preview {
+    display: inline-block;
+    vertical-align: middle;
+    border: 5px solid transparent;
+    &:hover {
+      cursor: pointer;
+      border: 5px solid red;
+    }
+    .img-preview {
+      overflow: hidden;
+      width: 150px;
+      height: 150px;
+    }
+  }
+}

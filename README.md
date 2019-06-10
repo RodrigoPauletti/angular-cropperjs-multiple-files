@@ -1,6 +1,9 @@
 # angular-cropperjs-multiple-files
 Angular + CropperJS with multiple files
 
+<a href="https://stackblitz.com/github/RodrigoPauletti/angular-cropperjs-multiple-files" target="_blank"><b>Demo on StackBlitz</b></a>
+
+
 <a href="https://fengyuanchen.github.io/cropperjs/" target="_blank">Cropper JS Documentation</a>
 
 <a href="https://github.com/matheusdavidson/angular-cropperjs" target="_blank">CropperJS and Angular integration repo</a>
